@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">App_Disciplinas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Instituto Federal do Tocantins</string>
+    <string name="nav_header_subtitle">https://www.ifto.edu.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_1Semestre">1º Semestre</string>
+    <string name="menu_2Semestre">2º Semestre</string>
+    <string name="menu_3Semestre">3º Semestre</string>
+    <string name="menu_4Semestre">4º Semestre</string>
+    <string name="menu_5Semestre">5º Semestre</string>
+    <string name="menu_6Semestre">6º Semestre</string>
+    <string name="sair">Sair</string>
+    
+    <string-array name="arrayDisciplinas">
+        <item>P1FRD;Fundamentos de Redes de Computadores;smile</item>
+        <item>P1TTE;Tendências Tec. para o Mercado de TI;cansado</item>
+        <item>P1ICP;Introdução a Computação;smile</item>
+        <item>P1IIT;Informática Instrumental;pensamento</item>
+        <item>P1ILP;Introdução à Lógica;smile</item>
+        <item>P1INT;Inglês Técnico;smile</item>
+        <item>P2FPB;Fundamentos e Projeto de Banco de Dados;smile</item>
+        <item>P2ASI;Análise de Sistemas;penamento</item>
+        <item>P2IPG;Introdução à Programação;smile</item>
+        <item>P2POO;Programação Orientada a Objetos;assustado</item>
+        <item>P2PEW;Programação Básica para Web;pensamento</item>
+        <item>P3ICO;Introdução à Conectividade;cansado</item>
+        <item>P3GDW;Gerenciamento de Dados para Web;cansado</item>
+        <item>P3PBD;Programação para Banco de Dados;smile</item>
+        <item>P3ASP;Administração de Sistemas Proprietários;smile</item>
+        <item>P3PWD;Programação para Web Designers;smile</item>
+        <item>P3PW1;Programação para Web I;smile</item>
+        <item>P4SDS;Sistemas Distribuídos e SOA;smile</item>
+        <item>P4PSI;Projeto de Sistemas;smile</item>
+        <item>P4TSO;Testes de Software;cansado</item>
+        <item>P4PIW;Projeto de Interface Web;smile</item>
+        <item>P4PW2;Programação para Web II;smile</item>
+        <item>P4ELT;Eletiva;smile</item>
+        <item>P5SSI;Segurança de Sistemas;smile</item>
+        <item>P5ISW;Infraestrutura para Sistemas Web;smile</item>
+        <item>P5ABD;Administração de Banco de Dados;smile</item>
+        <item>P5NTB;Novas Tecnologias em BD;smile</item>
+        <item>P5PD1;Programação para Dispositivos Móveis I;cansado</item>
+        <item>P5MTD;Metodologias de Desenvolvimento;smile</item>
+        <item>P6NTW;Novas Tecnologias em Desenvolvimento para Web;smile</item>
+        <item>P6GCO;Gerência de Configuração;smile</item>
+        <item>P6PPJ;Padrões de Projeto;smile</item>
+        <item>P6PD2;Programação para Dispositivos Móveis II;smile</item>
+    </string-array>
+
+
+</resources>

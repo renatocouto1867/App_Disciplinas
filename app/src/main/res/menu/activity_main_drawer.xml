@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/botao_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_primeiro"
+            android:icon="@drawable/semestre_a"
+            android:title="@string/menu_1Semestre" />
+        <!--<a href="https://www.flaticon.com/br/icones-gratis/semestre" title="semestre ícones">Semestre ícones criados por Freepik - Flaticon</a>-->
+        <item
+            android:id="@+id/nav_segundo"
+            android:icon="@drawable/semestre_b"
+            android:title="@string/menu_2Semestre" />
+        <!--<a href="https://www.flaticon.com/br/icones-gratis/semestre" title="semestre ícones">Semestre ícones criados por Prosymbols Premium - Flaticon</a>-->
+        <item
+            android:id="@+id/nav_terceiro"
+            android:icon="@drawable/semestre_a"
+            android:title="@string/menu_3Semestre" />
+        <!--<a href="https://www.flaticon.com/br/icones-gratis/semestre" title="semestre ícones">Semestre ícones criados por Freepik - Flaticon</a>-->
+        <item
+            android:id="@+id/nav_quarto"
+            android:icon="@drawable/semestre_b"
+            android:title="@string/menu_4Semestre" />
+        <!--<a href="https://www.flaticon.com/br/icones-gratis/semestre" title="semestre ícones">Semestre ícones criados por Prosymbols Premium - Flaticon</a>-->
+        <item
+            android:id="@+id/nav_quinto"
+            android:icon="@drawable/semestre_a"
+            android:title="@string/menu_5Semestre" />
+        <!--<a href="https://www.flaticon.com/br/icones-gratis/semestre" title="semestre ícones">Semestre ícones criados por Freepik - Flaticon</a>-->
+        <item
+            android:id="@+id/nav_sexto"
+            android:icon="@drawable/semestre_b"
+            android:title="@string/menu_6Semestre" />
+        <!--<a href="https://www.flaticon.com/br/icones-gratis/semestre" title="semestre ícones">Semestre ícones criados por Prosymbols Premium - Flaticon</a>-->
+    </group>
+</menu>

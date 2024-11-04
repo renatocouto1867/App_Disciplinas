@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.app_disciplinas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_primeiro"
+        android:name="com.example.app_disciplinas.ui.disciplinas.DisciplinasFragment"
+        android:label="@string/menu_1Semestre"
+        tools:layout="@layout/fragment_disciplinas">
+        <argument
+            android:name="periodo"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_segundo"
+        android:name="com.example.app_disciplinas.ui.disciplinas.DisciplinasFragment"
+        android:label="@string/menu_2Semestre"
+        tools:layout="@layout/fragment_disciplinas">
+        <!-- passagem de argumento https://developer.android.com/guide/navigation/use-graph/pass-data?hl=pt-br -->
+        <argument
+            android:name="periodo"
+            android:defaultValue="2"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_terceiro"
+        android:name="com.example.app_disciplinas.ui.disciplinas.DisciplinasFragment"
+        android:label="@string/menu_3Semestre"
+        tools:layout="@layout/fragment_disciplinas">
+        <argument
+            android:name="periodo"
+            android:defaultValue="3"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_quarto"
+        android:name="com.example.app_disciplinas.ui.disciplinas.DisciplinasFragment"
+        android:label="@string/menu_4Semestre"
+        tools:layout="@layout/fragment_disciplinas">
+        <argument
+            android:name="periodo"
+            android:defaultValue="4"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_quinto"
+        android:name="com.example.app_disciplinas.ui.disciplinas.DisciplinasFragment"
+        android:label="@string/menu_5Semestre"
+        tools:layout="@layout/fragment_disciplinas">
+        <argument
+            android:name="periodo"
+            android:defaultValue="5"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sexto"
+        android:name="com.example.app_disciplinas.ui.disciplinas.DisciplinasFragment"
+        android:label="@string/menu_6Semestre"
+        tools:layout="@layout/fragment_disciplinas">
+        <argument
+            android:name="periodo"
+            android:defaultValue="6"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
